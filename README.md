@@ -11,7 +11,7 @@ En este proyecto se han realizado 3 páginas que alojaremos en 3 contenedores do
 ## Instrucciones de despliegue
 1. Clona este repositorio en tu máquina:
    ```bash
-   git clone [<URL_DEL_REPOSITORIO>](https://github.com/ddrafa8b/PHP-Docker-Enviroment.git)
+   git clone [<URL_DEL_REPOSITORIO>](https://github.com/ddrafa8b/Proxy_Inverso.git)
    cd Proxy_Inverso
    ```
 
