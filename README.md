@@ -30,16 +30,16 @@ En este proyecto se han realizado 3 páginas que alojaremos en 3 contenedores do
 
 ## Integración de Apache con Docker
     ```bash
-    sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/     cocheses-selfsigned.key -out etc/ssl/certs/cocheses-selfsigned.crt
+    sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/cocheses-selfsigned.key -out /etc/ssl/certs/cocheses-selfsigned.crt
     ##########################################################################
-    a2ensite www.aula2daw.com.conf
-    a2ensite www.bicicletas.com.conf
-    a2ensite www.coches.com.conf
+    a2ensite www.aula2daw.es.conf
+    a2ensite www.bicicletas.es.conf
+    a2ensite www.coches.es.conf
     ```
     
 Cambiar el archivo hosts por el de tu máquina o simplemente añadir las rutas al tuyo, al igual que con el archivo ports que deberás poner Listen 8084 (o uno que sepas que no dará conflicto) en lugar de la 8080.
 
-4. Abre tu navegador y accede a las rutas que has conbfigurado en el paso anterior.
+4. Abre tu navegador y accede a las rutas que has configurado en el paso anterior.
 
 ## Estructura del Proyecto
 - `Dockerfile`: Configuración de los contenedores
